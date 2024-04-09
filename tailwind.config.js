@@ -1,0 +1,27 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily:{
+        Nunito: "Nunito Sans"
+      },
+      colors:{
+        lightblue: "#BCD5F8",
+        footerblue: "#236BD5",
+        navyblue: "#1C1707",
+        yellow: "#FFC120",
+        headercolor: "#1E1E1E",
+        textcolor: "#444444"
+      },
+      backgroundImage: {
+        heroBg: "url('/src/assets/Group.png')",
+      }
+    },
+  },
+  plugins: [],
+}
+
