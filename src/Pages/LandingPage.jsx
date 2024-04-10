@@ -1,10 +1,11 @@
-import Hero from "../Componentgs/Hero"
+import Hero from "../Components/Hero"
+import Container from "../Components/Container"
 
 const LandingPage = () => {
   return (
-    <div>
-        <Hero/>
-    </div>
+    <Container>
+      <Hero/>
+    </Container>
   )
 }
 

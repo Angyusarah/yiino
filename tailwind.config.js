@@ -11,11 +11,12 @@ export default {
       },
       colors:{
         lightblue: "#BCD5F8",
-        footerblue: "#236BD5",
+        footerblue: "rgba(35, 107, 213, 0.52)",
         navyblue: "#1C1707",
         yellow: "#FFC120",
         headercolor: "#1E1E1E",
-        textcolor: "#444444"
+        textcolor: "#444444",
+        offwhite: "#F1F1F1"
       },
       backgroundImage: {
         heroBg: "url('/src/assets/Group.png')",
