@@ -19,10 +19,10 @@ export default {
         offwhite: "#F1F1F1"
       },
       backgroundImage: {
-        heroBg: "url('/src/assets/Group.png')",
+        heroBg: "url('/src/assets/images/herobg.png')",
       }
     },
   },
   plugins: [],
-}
+};
 

@@ -3,6 +3,7 @@ import LandingPage from "./Pages/LandingPage"
 
 function App() {
   return (
+    <>
     <BrowserRouter>
         <Routes>
           <Route path="/" element = {<LandingPage/>}/>
@@ -11,6 +12,7 @@ function App() {
           <Route path="/contact" element = {<Contact/>}/> */}
         </Routes>
     </BrowserRouter>
+    </>
   )
 }
 
