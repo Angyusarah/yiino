@@ -5,14 +5,15 @@ import ContactPage from "./Pages/ContactPage"
 function App() {
   return (
     <>
-    <BrowserRouter>
-        <Routes>
-          <Route path="/" element = {<ContactPage/>}/>
+    <ContactPage/>
+    {/* <BrowserRouter> */}
+        {/* <Routes> */}
+          {/* <Route path="/" element = {<LandingPage/>}/> */}
           {/* <Route path="/about" element = {<About/>}/>
           <Route path="/services" element = {<Services/>}/>
           <Route path="/contact" element = {<Contact/>}/> */}
-        </Routes>
-    </BrowserRouter>
+        {/* </Routes> */}
+    {/* </BrowserRouter> */}
     </>
   )
 }

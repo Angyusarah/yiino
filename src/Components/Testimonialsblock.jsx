@@ -15,7 +15,7 @@ const Testimonialsblock = () => {
       })
   return (
     <div className=" md:flex justify-between md:w-[100%]">
-        <div className="hidden md:block md:flex md:justify-center md:items-center">
+        <div className="hidden md:flex md:justify-center md:items-center">
             <div className="md:bg-black md:text-white md:flex md:justify-center md:items-center md:p-3 md:rounded-full"><FaArrowLeft/></div>
         </div>
        
