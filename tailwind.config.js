@@ -17,10 +17,15 @@ export default {
         gradient: "#808080"
       },
       backgroundImage: {
+
         heroBg: "url('/src/assets/Group.png')",
         ContactUsBg: "url('/src/assets/Contactusbelowframe.png')",
+        heroBg: "url('/src/assets/images/herobg.png')",
       },
+        
+      }
+
     },
-  },
+  
   plugins: [],
 };

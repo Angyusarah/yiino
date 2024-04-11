@@ -4,6 +4,7 @@ import ContactPage from "./Pages/ContactPage"
 
 function App() {
   return (
+    <>
     <BrowserRouter>
         <Routes>
           <Route path="/" element = {<ContactPage/>}/>
@@ -12,6 +13,7 @@ function App() {
           <Route path="/contact" element = {<Contact/>}/> */}
         </Routes>
     </BrowserRouter>
+    </>
   )
 }
 
