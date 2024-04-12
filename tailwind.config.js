@@ -17,7 +17,7 @@ export default {
       },
       backgroundImage: {
         heroBg: "url('/src/assets/images/herobg.png')",
-        aboutHeroBg: "url('/src/assets/images/image1.png')",
+        aboutHeroBg: "url('/src/assets/images/frame1.png')",
       },
     },
   },
