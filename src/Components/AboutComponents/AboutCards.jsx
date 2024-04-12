@@ -19,7 +19,7 @@ const AboutCard = () => {
           debitis alias repudiandae sed et animi dolores reiciendis similique
           magni ducimus in velit cumque, consequatur odit repellat dolorum
         </p>
-        <img src={image2} alt="" />
+        <img src={image2} className="" alt="" />
         <p>
           dolor sit amet consectetur adipisicing elit. Officia exercitationem
           debitis alias repudiandae sed et animi dolores reiciendis similique
@@ -41,7 +41,7 @@ const AboutCard = () => {
         </p>
 
         <div className=" flex flex-col gap-6">
-          <div className="pb-6 lg:flex lg:gap-1 ">
+          <div className="pb-6 lg:flex  ">
             <div className=" lg:mt-6 ">
               <h3 className=" text-headercolor font-bold">Excellence:</h3>
               <p className=" lg:pr-[8rem]">
@@ -51,7 +51,11 @@ const AboutCard = () => {
                 odit repellat dolorum
               </p>
             </div>
-            <img src={image3} className=" pt-6 md:w-full lg:w-[30rem]" alt="image" />
+            <img
+              src={image3}
+              className=" pt-6 md:w-full "
+              alt="image"
+            />
           </div>
           <div className=" lg:absolute lg:top-[17rem] lg:right-[34em]">
             <h3 className=" text-headercolor font-bold">Creativity:</h3>
@@ -63,7 +67,7 @@ const AboutCard = () => {
               similique
             </p>
           </div>
-          <div className=" mt-6 lg:absolute lg:bottom-[15rem] lg:left-[39rem] lg:pl-16">
+          <div className=" mt-6 lg:absolute lg:bottom-[15rem] lg:left-[36rem] lg:pl-16">
             <h3 className=" text-headercolor font-bold">Integrity:</h3>
             <p className=" lg:pr-[8rem]">
               dolor sit amet consectetur adipisicing elit. Officia
@@ -73,9 +77,13 @@ const AboutCard = () => {
               similique
             </p>
           </div>
-          <div className=" lg:flex lg:gap-12  ">
-            <img src={image4} className=" pt-6 md:w-full" alt="image" />
-            <div className=" pt-6 lg:pt-[13rem] lg:pl-28">
+          <div className=" lg:flex lg:gap-4  ">
+            <img
+              src={image4}
+              className=" pt-6 md:w-full "
+              alt="image"
+            />
+            <div className=" pt-6 lg:pt-[13rem] lg:pl-24">
               <h3 className="text-headerColor font-bold">Customer Focus:</h3>
               <p className=" lg:pr-[4rem]">
                 dolor sit amet consectetur adipisicing elit. Officia
