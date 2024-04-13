@@ -1,10 +1,12 @@
-import AboutCard from "./AboutCards";
 import AboutHero from "./AboutHero";
+import MissionCard from "./MissionCard";
+import Valuecard from "./Valuecard";
 const About = () => {
   return (
     <div className=" md:px-8">
       <AboutHero />
-      <AboutCard />
+      <MissionCard />
+      <Valuecard />
     </div>
   );
 };
