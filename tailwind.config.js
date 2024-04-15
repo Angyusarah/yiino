@@ -14,18 +14,15 @@ export default {
         headercolor: "#1E1E1E",
         textcolor: "#444444",
         offwhite: "#F1F1F1",
-        gradient: "#808080"
+        gradient: "#808080",
       },
       backgroundImage: {
-
-        heroBg: "url('/src/assets/Group.png')",
         ContactUsBg: "url('/src/assets/Contactusbelowframe.png')",
         heroBg: "url('/src/assets/images/herobg.png')",
+        aboutHeroBg: "url('/src/assets/images/frame1.png')",
       },
-        
-      }
-
     },
-  
+  },
+
   plugins: [],
 };

@@ -1,14 +1,18 @@
-import Footer from "./Footer"
-import Header from "./Header"
+import Footer from "./Footer";
+import Header from "./Header";
 
-const Container = ({children}) => {
+const Container = ({ children }) => {
   return (
-    <div className="flex flex-col gap-4 lg:px-24">
-      <Header/>
-      {children}
-      <Footer/>
-    </div>
-  )
-}
 
-export default Container
+    <div className="flex flex-col ">
+    <div className="flex flex-col gap-4 pt-6">
+
+      <Header />
+      {children}
+      <Footer />
+    </div>
+    </div>
+  );
+};
+
+export default Container;
