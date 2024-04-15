@@ -1,8 +1,14 @@
 import React from 'react'
+import Container from '../Components/Container'
+import Service from '../Components/Service'
 
 function ServicesPage() {
   return (
-    <div>ServicesPage</div>
+    
+  
+  <Container>
+    <Service/>   
+    </Container>
   )
 }
 
