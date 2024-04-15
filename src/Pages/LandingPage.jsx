@@ -1,8 +1,8 @@
-import Hero from "../Components/Hero"
+import Hero from "../Components/LandingPage/Hero"
 import Container from "../Components/Container"
-import Keyservices from "../Components/Keyservices"
-import Achievements from "../Components/Achievements"
-import Testimonials from "../Components/Testimonials"
+import Keyservices from "../Components/LandingPage/Keyservices"
+import Achievements from "../Components/LandingPage/Achievements"
+import Testimonials from "../Components/LandingPage/Testimonials"
 
 const LandingPage = () => {
   return (
