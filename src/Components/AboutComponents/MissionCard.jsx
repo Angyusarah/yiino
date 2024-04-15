@@ -4,7 +4,7 @@ import mission from "../../assets/images/mission.png";
 const MissionCard = () => {
   return (
     <section className=" px-6  pb-9 flex flex-col gap-6  ">
-      <div className="flex items-center  justify-center md:mr-12 lg:pr-10 gap-4">
+      <div className="flex items-center  justify-center md:mr-12  gap-4">
         <img src={mission} alt="mission image" />
         <h2 className="text-headercolor font-bold text-[2rem]  ">
           Our Mission
