@@ -43,7 +43,7 @@ const Valuecard = () => {
               similique
             </p>
           </div>
-          <div className=" mt-6 lg:absolute lg:bottom-[15rem] lg:left-[36rem] lg:pl-16">
+          <div className=" mt-6 lg:absolute lg:bottom-[23rem] lg:left-[46rem] lg:pl-16">
             <h3 className=" text-headercolor font-bold">Integrity:</h3>
             <p className=" lg:pr-[8rem]">
               dolor sit amet consectetur adipisicing elit. Officia

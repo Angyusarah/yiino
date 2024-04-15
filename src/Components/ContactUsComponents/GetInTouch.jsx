@@ -1,6 +1,6 @@
 const GetInTouch = () => {
   return (
-    <section className=" lg:w-1/2 flex flex-col   text-offwhite justify-center md:px-16 md:text-center md:align-middle">
+    <section className=" lg:w-1/2 flex flex-col   text-offwhite justify-center md:px-16 lg:mr-14 md:text-center lg:text-left">
       <div>
         <div>
           <h3 className=" font-semibold text-4xl">Get in Touch</h3>
@@ -9,8 +9,8 @@ const GetInTouch = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           </p>
         </div>
-        <div className=" pt-4 md:pl-32 ">
-          <div className=" md:pl-8">
+        <div className=" pt-4 md:pl-32 lg:pl-0 ">
+          <div className=" md:pl-8 lg:pl-0">
             <div className=" flex gap-4  ">
               <a href="" className=" ">
                 <img src="/src/assets/call.svg" alt="" className=" h-6 " />
