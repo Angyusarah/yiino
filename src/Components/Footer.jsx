@@ -20,7 +20,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-1 cursor-pointer">
             <Link to="/about">
               <li className="hover:text-textcolor" key="about">
-                Aout Yiino Technlogy
+                About Yiino Technlogy
               </li>
             </Link>
 
