@@ -5,7 +5,7 @@ const Hero = () => {
         <div className=" text-center ">
           <div className="my-5">
             <h1 className=" text-headercolor font-bold text-2xl">
-              Lorem ipsum dolor sit amet consectetur.
+              Yinno : Cultivating a Healthier Future
             </h1>
             <p className="text-xs">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel

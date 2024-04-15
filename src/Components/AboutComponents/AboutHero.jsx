@@ -8,9 +8,12 @@ const AboutHero = () => {
           </div>
           <h2 className="text-headercolor font-bold text-[2rem]">About Us </h2>
           <p className=" text-center text-textcolor text-[18px] md:px-[5rem]">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nulla
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem,
-            ipsum dolor sit amet consectetur .
+            Yinno champions a future where health, education, and agriculture
+            flourish together. We believe healthy individuals form the
+            foundation for a thriving agricultural sector. Sustainable
+            agricultural practices, in turn, ensure a healthy planet for all.
+            Through innovation and collaboration, Yinno empowers communities to
+            achieve this interconnected well-being.
           </p>
         </div>
         <div className=" bg-aboutHeroBg h-[12rem]  bg-cover bg-center  md:h-[26rem] rounded-lg "></div>

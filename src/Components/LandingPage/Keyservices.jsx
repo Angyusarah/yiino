@@ -24,9 +24,12 @@ const Keyservices = () => {
           <div className="flex flex-col justify-start items-start">
             <h3 className=" font-semibold text-xl py-2">Education</h3>
             <p className="text-sm">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima,
-              amet natus. Maiores commodi molestias omnis ab fugit a, neque
-              aperiam!
+              This section will focus on promoting agricultural literacy and
+              building capacity in rural communities. It will offer resources
+              on: * Agriscience curriculum development for schools <br /> *
+              Farmer training programs <br /> * Youth mentorship initiatives in
+              agriculture <br />* Educational tools on nutrition and healthy
+              eating
             </p>
           </div>
         </div>
@@ -39,9 +42,11 @@ const Keyservices = () => {
           <div className="flex flex-col justify-start items-start">
             <h3 className=" font-semibold text-xl py-2">Health</h3>
             <p className="text-sm">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima,
-              amet natus. Maiores commodi molestias omnis ab fugit a, neque
-              aperiam!
+              This section will address the health needs of agricultural
+              communities by providing information on: * Occupational health and
+              safety practices for farmers <br /> * Nutritional guidance for healthy
+              living <br /> * Food safety and hygiene education programs <br /> * Telemedicine
+              services for remote areas
             </p>
           </div>
           <link rel="stylesheet" href="" />
@@ -55,9 +60,11 @@ const Keyservices = () => {
           <div className="flex flex-col justify-start items-start">
             <h3 className=" font-semibold text-xl py-2">Agriculture</h3>
             <p className="text-sm">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima,
-              amet natus. Maiores commodi molestias omnis ab fugit a, neque
-              aperiam!
+              This section will provide resources on sustainable farming
+              practices, including: * Soil health and management <br /> * Water
+              conservation techniques <br /> * Integrated pest management (IPM)
+              strategies <br /> * Precision agriculture technologies <br />*
+              Post-harvest handling and storage techniques
             </p>
           </div>
           {/* <link to="/">Learn more</link> */}

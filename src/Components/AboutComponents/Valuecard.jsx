@@ -11,9 +11,10 @@ const Valuecard = () => {
       </div>
       <div className=" flex flex-col gap-6 lg relative md:gap-14 ">
         <p className="lg:text-center lg:px-12">
-          dolor sit amet consectetur adipisicing elit. Officia exercitationem
-          debitis alias repudiandae sed et animi dolores reiciendis similique
-          magni ducimus in velit cumque, consequatur odit
+          Yinno's website will be a one-stop hub connecting individuals,
+          organizations, and initiatives working in the fields of agriculture,
+          education, and health. It will offer a variety of resources,
+          including:
         </p>
 
         <div className=" flex flex-col gap-6">
@@ -21,11 +22,10 @@ const Valuecard = () => {
             <div className=" lg:mt-6 ">
               <h3 className=" text-headercolor font-bold">Excellence:</h3>
               <p className=" lg:pr-[8rem]">
-                dolor sit amet consectetur adipisicing elit. Officia
-                exercitationem debitis alias repudiandae sed et animi dolores
-                reiciendis similique magni ducimus in velit cumque, consequatur
-                exercitationem debitis alias repudiandae sed et animi dolores
-                odit repellat dolorum
+                Excellence is our mission. We are unwavering in our commitment
+                to delivering the highest quality resources, programs, and
+                services. Our dedication ensures exceptional value for those we
+                serve, empowering them to achieve their full potential.
               </p>
             </div>
             <img src={image3} className=" pt-6 md:w-full " alt="image" />
@@ -33,24 +33,19 @@ const Valuecard = () => {
           <div className=" lg:absolute lg:top-[17rem] lg:right-[34em]">
             <h3 className=" text-headercolor font-bold">Creativity:</h3>
             <p className=" lg:pr-[8rem]">
-              dolor sit amet consectetur adipisicing elit. Officia
-              exercitationem debitis alias repudiandae sed et animi doloresdolor
-              sit amet consectetur adipisicing elit. Officia exercitationem
-              debitis alias repudiandae sed et animi dolores reiciendis
-              exercitationem debitis alias repudiandae sed et animi dolores
-              exercitationem debitis alias repudiandae sed et animi dolores
-              exercitationem debitis alias repudiandae sed et animi dolores
-              similique
+              In a world facing complex challenges, we believe innovation is
+              key. We champion fresh perspectives and creative solutions,
+              fostering an environment where bold ideas can flourish. Together,
+              we can address global challenges and build a brighter future.
             </p>
           </div>
           <div className=" mt-6 lg:absolute lg:bottom-[15rem] lg:left-[36rem] lg:pl-16">
             <h3 className=" text-headercolor font-bold">Integrity:</h3>
             <p className=" lg:pr-[8rem]">
-              dolor sit amet consectetur adipisicing elit. Officia
-              exercitationem debitis alias repudiandae sed et animi doloresdolor
-              sit amet consectetur adipisicing elit. Officia exercitationem
-              debitis alias repudiandae sed et animi dolores reiciendis
-              similique
+              Integrity is our guiding principle. In every endeavor we
+              undertake, we hold ourselves to the strictest ethical standards.
+              Fairness, honesty, and transparency are at the core of our
+              decisions, ensuring a positive impact on all stakeholders.
             </p>
           </div>
           <div className=" lg:flex lg:gap-4  ">
@@ -58,11 +53,11 @@ const Valuecard = () => {
             <div className=" pt-6 lg:pt-[13rem] lg:pl-24">
               <h3 className="text-headerColor font-bold">Customer Focus:</h3>
               <p className=" lg:pr-[4rem]">
-                dolor sit amet consectetur adipisicing elit. Officia
-                exercitationem debitis alias repudiandae sed et animi dolores
-                dolor sit amet consectetur adipisicing elit. Officia
-                exercitationem debitis alias repudiandae sed et animi dolores
-                reiciendis similique
+                We prioritize the needs of our communities by investing in youth
+                development programs, providing job training opportunities, and
+                supporting initiatives that promote environmental
+                sustainability. This allows us to create a positive impact on
+                their lives and build a brighter future for all.
               </p>
             </div>
           </div>
