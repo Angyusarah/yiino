@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <header className={"flex justify-between px-6 relative items-center"}>
+    <header className={"flex justify-between pl-6 pr-14 relative items-center"}>
       <img src={logo} className={"object-contain h-14 w-14"} alt="" />
       <button
         onClick={handleHamburger}

@@ -9,12 +9,13 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col bg-footerblue    text-center py-2 text-white md:flex-row md:gap-16 md:px-12">
+    <footer className="flex flex-col bg-footerblue    text-center py-2 text-white md:flex-row md:gap-16 md:px-20">
       <div className=" my-auto w-[50%] bg-center mx-auto   lg:w-[20%]">
-        <img src={logo3} alt="logo" />
+        <img src={logo3} className="w-[70%]" alt="logo" />
+      
       </div>
 
-      <div className="  md:flex md:justify-between  md:gap-5 md:text-left md:w-[80%] md:mr whitespace-nowrap">
+      <div className="  md:flex md:justify-between  md:gap-3 md:text-left md:w-[80%] md:mr whitespace-nowrap">
         <div className="my-8">
           <h6 className=" text-navyblue text-xl my-3">About Us</h6>
           <ul className="flex flex-col gap-1 cursor-pointer">
