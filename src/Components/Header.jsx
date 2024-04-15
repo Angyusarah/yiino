@@ -1,5 +1,5 @@
 import Nav from "./Nav.jsx";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Header() {
   const [isHidden, setIsHidden] = useState(false);
