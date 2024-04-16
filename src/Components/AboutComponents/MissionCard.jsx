@@ -11,13 +11,13 @@ const MissionCard = () => {
         </h2>
       </div>
       <div className=" flex flex-col gap-6 lg:flex-row relative md:gap-14 ">
-        <p className=" lg:absolute md:top-[9rem]  lg:left-[34rem]">
+        <p className=" lg:absolute lg:top-[0]  lg:left-[34rem]">
           Yinno is on a mission to empower communities by fostering innovation
           and collaboration at the intersection of agriculture, education, and
           health.
         </p>
         <img src={image2} className="" alt="" />
-        <p>
+        <p className="lg:pt-[5rem]">
           At the heart of a flourishing agricultural sector lies a healthy and
           knowledgeable population. Just as fertile soil nourishes crops, a
           society invested in well-being cultivates a skilled agricultural
