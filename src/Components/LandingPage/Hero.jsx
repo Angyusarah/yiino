@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-offwhite w-full">
@@ -12,9 +14,11 @@ const Hero = () => {
               accusamus laboriosam quisquam debitis!
             </p>
           </div>
-          <button className=" bg-black text-white px-5 py-2 rounded-md">
-            Contact Us
-          </button>
+          <Link to={"/contact"}>
+            <button className=" bg-black text-white px-5 py-2 rounded-md">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
     </div>
