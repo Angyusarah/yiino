@@ -15,7 +15,7 @@ export default function Nav({ hideNav }) {
           navlinks.map(({name, path}, index) => {
             return (
               <li className=" font-semibold" key={index}>
-                <NavLink to={path} className={({isActive}) => isActive ? 'text-footerblue font-extrabold' : ''}>{name}</NavLink>
+                <NavLink to={path} className={({isActive}) => isActive ? ' border-b-2 border-footerblue pb-2 text-footerblue' : ''}>{name}</NavLink>
               </li>
             )
           })
